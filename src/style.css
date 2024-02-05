@@ -1,0 +1,84 @@
+
+html, body {
+    height: 100%;
+    margin: 0px;
+
+}
+
+.background {
+    height: 100%;
+
+    background-image: url('./backImg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title {
+font-size: 3rem;
+color: whitesmoke;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+}
+
+.currentPage {
+    max-width: 60ch;
+    text-align: center;
+    margin-top: 0px;
+    color: whitesmoke;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px black;
+
+}
+.btnGroup{
+    margin:3rem;
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 1rem;
+}
+.tabBtn {
+font-size: 2rem;
+border-radius: 0.5rem;
+background-color: whitesmoke;
+}
+.menuImg{
+    width: 330px;
+    height: 250px;
+    border-radius: 3%;
+    object-fit: cover;
+}
+
+.menuContent{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.menuDish {
+    max-width: 450px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.contactPage {
+    color: whitesmoke;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px black;
+}
